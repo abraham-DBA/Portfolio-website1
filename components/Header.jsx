@@ -9,10 +9,11 @@ const Header = () => {
             {/* Profile Image */}
             <motion.div initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.8, type: "spring", stiffness:100}}>
                 <Image
-                    src={assets.profile_img}
+                    src={assets.profile1}
                     alt="profile-image"
-                    className="rounded-full w-24 sm:w-32 mx-auto"
+                    className="rounded-full w-24 h-24 sm:w-32 sm:h-32 object-cover"
                 />
+
             </motion.div>
 
             {/* Intro */}
