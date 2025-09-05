@@ -24,13 +24,13 @@ const Work = () => {
                         className="relative aspect-square rounded-lg overflow-hidden cursor-pointer group"
                     >
                         {/* Background Image */}
-                        <Image
+                        <a href={project.link}> <Image
                             src={project.bgImage}
                             alt={project.title}
                             fill
                             className="object-cover"
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                        />
+                        /></a>
 
                         {/* Overlay Card */}
                         <div className="absolute bottom-5 left-1/2 -translate-x-1/2 w-10/12">

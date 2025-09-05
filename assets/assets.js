@@ -80,9 +80,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'FullStack project',
+        description: 'Doctor Appointment App',
+        bgImage: '/project11.png',
+        link: 'https://doctor-appointment-weld.vercel.app/'
     },
     {
         title: 'Geo based app',
